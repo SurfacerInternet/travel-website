@@ -7,3 +7,9 @@ img {
     background-color: lightgreen;
     padding: 3rem;
 }
+
+
+.card-title {
+  font-size: 1.2rem;
+  font-family: 'Verdana';
+}

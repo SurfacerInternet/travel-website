@@ -1,14 +1,14 @@
-import TravelStyles from "../newFeatures/travelstylesList"
-import { Media } from "reactstrap"
+import TravelStylesList from "../newFeatures/TravelStyle/TravelStylesList";
+import { Container } from "reactstrap";
 
 const TourPage = () => {
     return(
-        <Media>
-          
-       I love pandas
-
-        </Media>
+       <Container>
+        <TravelStylesList />
+       
+        
+       </Container>
     )
 }
 
-export default TourPage
+export default TourPage;
