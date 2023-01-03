@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import './App.css';
 import TourPage from './pages/TourPage'
+import ItineraryPage from './pages/ItineraryPage';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Header />
     <HomePage />
     <TourPage/>
-    
+    <ItineraryPage />
     </div>
   
   );

@@ -1,12 +1,12 @@
-import TravelStylesList from "../newFeatures/TravelStyle/TravelStylesList";
+import TravelStylesList from "../newFeatures/travelstyles/TravelStylesList";
 import { Container } from "reactstrap";
+import TravelToursList from "../newFeatures/traveltours/TravelToursList";
 
 const TourPage = () => {
     return(
        <Container>
-        <TravelStylesList />
-       
-        
+        <TravelStylesList />  
+        <TravelToursList />
        </Container>
     )
 }

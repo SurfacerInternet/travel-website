@@ -1,4 +1,4 @@
-import {Card, CardBody, CardImg, CardTitle, } from 'reactstrap'
+import {Card, CardBody, CardImg, CardTitle} from 'reactstrap'
 
 
 
@@ -13,7 +13,6 @@ const TravelStylesCard = ({item}) => {
             <CardBody> {description}</CardBody>
 
         </Card>
-
     )
 
 };
