@@ -1,28 +1,30 @@
 import { selectAllTourStyles } from './TravelStylesSlice';
 import TravelStylesCard from './TravelStylesCard'; //not passed with styles array yet
-import { Container, Row, Col} from 'reactstrap'
+import {Row, Col} from 'reactstrap'
 
 
 const TravelStylesList = () => {
     const tourstyles = selectAllTourStyles();
     return (   
-        <Container>
-        <Row>
-            {tourstyles.map((styles) => {
-                return (
-                    <Col md='8' className='m-4' key={styles.id}>
-                        <TravelStylesCard item={styles} /> 
-                    </Col>
-                )
-            }
-
+        <Row className='ms-auto'>
+        {tourstyles.map((styles) => {
+            return (
+                <Col md='6' key={styles.id}>     
+                    <TravelStylesCard item={styles} />
+                    </Col>          
             )
+        })
         }
-        </Row>
-        </Container>
+        </Row>      
     )
 }
 
-//the item is each object inthe TOURSTYLES array. 
+//the item is set equal to each object inside the TOURSTYLES array. 
     
 export default TravelStylesList;
+
+const object = {
+    color: 'Red',
+    size: 19,
+    material: true
+}

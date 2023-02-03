@@ -1,20 +1,26 @@
-import {Card, CardBody, CardImg, CardTitle} from 'reactstrap'
-
+import {Card,
+     CardBody,
+     CardImg, 
+     CardImgOverlay, 
+     CardTitle,
+    Container,
+Row,
+Col} from 'reactstrap'
 
 
 const TravelStylesCard = ({item}) => {
     const {image, title, description} = item;
+
     return(
-        <Card>
-            <CardImg width='100%' src={image} alt={title} />
-
-           
-            <CardTitle> {title}</CardTitle>
-            <CardBody> {description}</CardBody>
-
-        </Card>
+          
+        <Card className='mb-4'>
+            <CardImg  src={image} alt={title} />
+            <CardImgOverlay>
+            <CardTitle className='title'> {title}</CardTitle>
+            </CardImgOverlay>
+            
+        </Card>    
     )
-
 };
 
 export default TravelStylesCard;

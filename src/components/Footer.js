@@ -1,7 +1,11 @@
+
 const Footer = () => {
     return(
-        <div>
-            I love you.
+        <div className="center">
+            www.travelwiz.com 
         </div>
     )
 }
+
+
+export default Footer;

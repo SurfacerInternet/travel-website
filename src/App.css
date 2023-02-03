@@ -1,21 +1,69 @@
-img {
-  height: 100px;
-  width: 100px;
+
+.contain {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
 .row-content {
-    background-color: rgb(0, 200, 80);
-    padding: 3rem;
+ background-color:none;
+ padding: 50px;
 }
 
-
-.card-title {
-  font-size: 1.2rem;
-  font-family: 'Verdana';
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-.cont {
-  color: green;
+.center {
+  background-color: gainsboro;
+  height: 200px;
+  padding-top: 100px;
+  text-align: center;
+  color: steelblue;
 }
 
+.heading {
+  font-family: 'Times New Roman', serif;
+  font-size: 90px;
+  font-weight: 900;
+  padding: 200px;
+  text-align: center;
+  color:darkblue;
+  background-color: rgb(120, 221, 221);
+}
+
+h3 {
+  font-style: italic;
+}
+
+Label {
+  color: darkblue;
+  font-style: italic;
+}
+
+#red {
+  color: red;
+}
+
+Form {
+  background-color: bisque;
+}
+
+.head {
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  border: 1px solid greenyellow;
+}
+
+/* We have to think about it differently. Radically different*/

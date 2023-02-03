@@ -1,7 +1,7 @@
-import { Accordion, AccordionBody, AccordionHeader, AccordionItem, Modal } from "reactstrap";
+import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "reactstrap";
 import { useState } from "react";
 
-const TravelToursList = () => {
+const TravelToursQA = () => {
 
     const [open, setOpen] = useState('1');
 
@@ -15,46 +15,44 @@ const TravelToursList = () => {
 
     return (
         <Accordion flush toggle = {toggle} open={open} >
-            
+            <h3 className="p-4">Travel Tour Companies</h3>  
         <AccordionItem >
             <AccordionHeader targetId="1" className="cont">
-                What is Contikiz
+                What are travel tour companies?
             </AccordionHeader >
             <AccordionBody accordionId="1">   
-                The most partyful tour, filled with drinking and naughtiness.
+                Travel tour companies offer preplanned trips to destinations around the world and take care of most if not all of the activities, transportation, and lodging during the stay.
             </AccordionBody>
         </AccordionItem>
                
         <AccordionItem>
             <AccordionHeader targetId="2">
-                Intrepid
+                Do I have to pay for my flight?
             </AccordionHeader>
             <AccordionBody accordionId="2">  
-                You'll either find the love of your life or the worst person you'll ever meet. 
+                 Yes, the cost of the tours that you pay the tour company covers only the tour itself. To get to the place/country of the tour you will have to arrange yourself. 
             </AccordionBody>
         </AccordionItem>
 
         <AccordionItem>
             <AccordionHeader targetId="3">
-            Indus Travel
+            Can I get a refund if I can't make it to the tour?
             </AccordionHeader>
             <AccordionBody accordionId="3">  
-                You might get lost if you choose this company.
+             Yes, you will have to contact the tour company for a refund. 
             </AccordionBody>
         </AccordionItem>
 
         <AccordionItem>
             <AccordionHeader targetId="4">
-            Work Away
+            What if I want my own accomodation?
             </AccordionHeader>
             <AccordionBody accordionId="4">  
-            Here is a great way to get kidnapped!
+            Some of the companies give you a choice to pay for your own room and for extra activities as part of the tour price. 
             </AccordionBody>
         </AccordionItem>
         </Accordion>
     )
-
 };
 
-
-export default TravelToursList;
+export default TravelToursQA;

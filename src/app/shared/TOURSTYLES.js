@@ -11,21 +11,21 @@ export const TOURSTYLES = [
 {   id: 0,
     title: 'Safari',
     image: safari,
-    description: "See the magnificent African savannah through and far",
+    description: "See the magnificent African savannah, before you own eyes",
     featured: false
 },
 
 {   id: 1, 
     title: 'Cycling',
     image: cycling,
-    description: "Excercise and explore at the same time!",
+    description: "Explore and excercise at the same time!",
     featured: false
 },
 
 {   id: 2,
     title: 'Food',
     image: food,
-    description: "Get a taste of the exotic flavors from a different cuisine ",
+    description: "Get a taste of the exotic flavors from a different cuisine",
     featured: false
 },
 
@@ -46,7 +46,7 @@ export const TOURSTYLES = [
 {   id: 5,
     title: 'Urban',
     image: urban,
-    description: 'For those that are addicted to the madness and the glow of the city life',
+    description: 'For those addicted to the madness and the glow of the city life',
     featured: false
 }
 
