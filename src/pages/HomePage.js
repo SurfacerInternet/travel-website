@@ -1,8 +1,7 @@
-import { applyMiddleware } from "@reduxjs/toolkit";
+import Thailand from '../app/assets/img/thailand.jpg';
 import { Route } from "react-router-dom";
 import { Container, Row, Col, Button,} from "reactstrap";
-import Thailand from '../app/assets/img/thailand.jpg';
-import ItineraryPage from "./ItineraryPage";
+import ItineraryButton from '../newFeatures/itinerary/ItineraryButton';
 
 const HomePage = () => {
 
@@ -24,13 +23,12 @@ const HomePage = () => {
                 <Col sm='4'>
                     <h3> Make an Itinerary</h3>
                     <p> Make planning painless by making a travel itinerary</p> 
+                  
                 </Col>
             </Row>
-            <Row className="bg-white">
-                <Col sm='2' className="mx-auto">
-                    <Button>
-                        Plan Your Trip!
-                    </Button>
+            <Row>
+                <Col>
+                    <ItineraryButton />
                 </Col>
             </Row>
             </div>
@@ -41,6 +39,3 @@ const HomePage = () => {
 export default HomePage;
 
 
-//How to get the button to respond, when you click it?
-//Make a function outside then, put it in, or what ?
-//useState, onclick

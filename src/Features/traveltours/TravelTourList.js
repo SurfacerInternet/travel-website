@@ -10,8 +10,10 @@ const TravelTourList = () => {
     return (
        tourcompanies.map((tour) => {
         return (
-            <Row>
+            <Row key={tour.id}>
+                <Col sm='8'> 
                 <TravelTourDesc item={tour} />
+                </Col>
             </Row>
         )})
     )

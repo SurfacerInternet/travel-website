@@ -1,8 +1,10 @@
-import TravelStylesList from "../newFeatures/travelstyles/TravelStylesList";
+import Group from '../app/assets/img/group-travel.jpg';
 import { Container, Col, Row } from "reactstrap";
-import TravelToursQA from "../newFeatures/traveltours/TravelToursQA";
+import TravelStylesList from "../newFeatures/travelstyles/TravelStylesList";
 import TravelTourList from "../newFeatures/traveltours/TravelTourList";
-import Group from '../app/assets/img/group-travel.jpg'
+import TravelToursQA from "../newFeatures/traveltours/TravelToursQA";
+
+
 
 
 const TourPage = () => {
@@ -15,11 +17,27 @@ const TourPage = () => {
          </div>
         </div>
     <Container>
-            <TravelStylesList />  
+        <Row>
+            <Col>
+                <h2> What type of unique travel are you seeking? </h2>
+            </Col>
+        </Row>
+        <Row className='mt-5'> 
+            <TravelStylesList/>  
+        </Row>
+        <Row>
+            <Col>
+                <h2> Here are some tour companies that can offer the travel style & destination you want </h2>
+            </Col>
+        </Row>
+        <Row className='mt-5'> 
             <TravelTourList />
+        </Row>
+        <Row className='mt-5'>
             <TravelToursQA />
-        </Container>
-        </div>
+        </Row>    
+    </Container>
+</div>
     )
 }
 

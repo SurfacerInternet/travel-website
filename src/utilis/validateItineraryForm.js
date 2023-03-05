@@ -5,10 +5,10 @@ export const validateItineraryForm = (values) => {
         errors.destination = "Select one country";
     }
     if(!values.departure) {
-        errors.departure = "Provide a departure date"
+        errors.departure = "Pick a departure date"
     }
-    if(!values.date) {
-        errors.date = "Pick date"
+    if(!values.returnd) {
+        errors.returnd = "Pick return date"
     }
     if(!values.duration) {
         errors.duration = "Provide trip duration"
