@@ -4,7 +4,6 @@ import { useState } from "react";
 const TravelToursQA = () => {
 
     const [open, setOpen] = useState('1');
-
     const toggle = (id) => {
       if (open === id) {
         setOpen();
@@ -15,7 +14,7 @@ const TravelToursQA = () => {
 
     return (
         <Accordion flush toggle = {toggle} open={open} >
-            <h3 className="p-4">Travel Tour Companies</h3>  
+            <h3 className="p-4"> FAQ </h3>  
         <AccordionItem >
             <AccordionHeader targetId="1" className="cont">
                 What are travel tour companies?

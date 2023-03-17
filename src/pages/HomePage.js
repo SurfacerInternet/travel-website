@@ -1,7 +1,7 @@
-import Thailand from '../app/assets/img/thailand.jpg';
+import Thailand from '../app/assets/img/thailand.jpeg';
 import { Route } from "react-router-dom";
 import { Container, Row, Col, Button,} from "reactstrap";
-import ItineraryButton from '../newFeatures/itinerary/ItineraryButton';
+import ItineraryButton from '../Features/itinerary/ItineraryButton';
 
 const HomePage = () => {
 
@@ -27,8 +27,15 @@ const HomePage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className= " right ">
                     <ItineraryButton />
+                </Col>
+                    
+                <Col>
+                <Button>Hello</Button>
+                </Col>
+                <Col>
+                <Button>Hello</Button>
                 </Col>
             </Row>
             </div>

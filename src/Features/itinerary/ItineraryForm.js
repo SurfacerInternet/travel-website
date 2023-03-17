@@ -32,7 +32,7 @@ const ItineraryForm = () => {
         >
 
             <Form>
-                <FormGroup className="side">
+                <FormGroup className="right">
                     <Label htmlFor="destination"> Destination </Label>
                     <Col sm='6'>
                         <Field
@@ -292,7 +292,7 @@ const ItineraryForm = () => {
                     </Col>
                 </FormGroup>
 
-                <FormGroup >
+                <FormGroup className="right">
                     <Label htmlFor="departure"> Departure Date </Label>
                     <Col sm='6'>
                         <Field type="date"
@@ -306,7 +306,7 @@ const ItineraryForm = () => {
                     </Col>
                 </FormGroup>
 
-                <FormGroup>
+                <FormGroup className="right">
                     <Col sm='6'>
                         <Label for="returnd"> Return Date</Label>
                         <Field type="date"
@@ -321,8 +321,7 @@ const ItineraryForm = () => {
                 </FormGroup>
 
 
-
-                <FormGroup row>
+                <FormGroup className="right">
                     <Label htmlFor='activities'> Activities </Label>
                     <Col sm='6'>
                         <Field

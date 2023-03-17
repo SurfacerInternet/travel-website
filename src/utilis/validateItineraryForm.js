@@ -1,4 +1,5 @@
 export const validateItineraryForm = (values) => {
+    
     const errors = {};
 
     if(!values.destination) {

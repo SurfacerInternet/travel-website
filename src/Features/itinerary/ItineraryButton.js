@@ -355,7 +355,7 @@ const ItineraryButton = () => {
                             </FormGroup>
 
                             <Button type='submit'>
-                                Get my itinerary!
+                                Make my itinerary!
                             </Button>
 
                         </Form>

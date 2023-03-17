@@ -1,9 +1,9 @@
-import cruise from '../assets/img/cruise.jpg';
+import cruise from '../assets/img/cruise.jpeg';
 import cycling from '../assets/img/cycling.jpg';
 import food from '../assets/img/food.jpg';
-import safari from '../assets/img/safari.jpg';
-import trekking from '../assets/img/trekking.jpg';
-import urban from '../assets/img/urban.jpg';
+import safari from '../assets/img/safari.jpeg';
+import trekking from '../assets/img/trekking.jpeg';
+import urban from '../assets/img/urban.jpeg';
 
 
 export const TOURSTYLES = [
@@ -25,7 +25,7 @@ export const TOURSTYLES = [
 {   id: 2,
     title: 'Food',
     image: food,
-    description: "Get a taste of the exotic flavors from a different cuisine",
+    description: "Get a taste of the exotic flavors from a unique cuisine",
     featured: false
 },
 

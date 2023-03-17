@@ -7,7 +7,7 @@
 .centered {
   font-size: 50px;
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color:rgba(0, 0, 0, 0.5);
@@ -28,7 +28,6 @@
   background-color: gainsboro;
   height: 200px;
   padding-top: 100px;
-  text-align: center;
   color: steelblue;
 }
 
@@ -43,7 +42,7 @@
 }
 
 h3 {
-  font-style: italic;
+  font-weight: 500;
 }
 
 Label {
@@ -55,21 +54,35 @@ Label {
   color: red;
 }
 
+
+.right {
+  margin-left: 72px; ;
+
+}
+
 Form {
   background-color: bisque;
   border: 0.3px solid red;
-  margin-left: 5px;
 }
 
-.side {
-  margin-left: 15px;
-}
 
 .head {
-  font-size: 30px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   border: 1px solid greenyellow;
+}
+
+.aboutTitle {
+
+  background-color: none;
+  color: blue;
+  font-weight: 600;
+  height: 100px;
+}
+
+.AccordionBody {
+ color: yellow;
+
 }
 
 /* We have to think about it differently. Radically different*/

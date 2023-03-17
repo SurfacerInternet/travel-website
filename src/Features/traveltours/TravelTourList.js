@@ -12,7 +12,7 @@ const TravelTourList = () => {
         return (
             <Row key={tour.id}>
                 <Col sm='8'> 
-                <TravelTourDesc item={tour} />
+                    <TravelTourDesc item={tour} />
                 </Col>
             </Row>
         )})

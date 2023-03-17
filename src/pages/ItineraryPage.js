@@ -1,6 +1,6 @@
-import Trip from '../app/assets/img/Trip.jpg'
-import { Container, Row, Col } from "reactstrap";
-import ItineraryForm from "../newFeatures/itinerary/ItineraryForm";
+import Trip from '../app/assets/img/Trip.jpeg'
+import { Row, Col } from "reactstrap";
+import ItineraryForm from "../Features/itinerary/ItineraryForm";
 
 
 const ItineraryPage = () => {
@@ -8,21 +8,15 @@ const ItineraryPage = () => {
 
         <div>
             <img src={Trip} alt='trip-photo' className="img-fluid" width='max' />
-            <h1 className="centered"> MAKE YOUR OWN ITINERARY </h1>
+            <h1 className="centered">
+                 MAKE YOUR OWN ITINERARY
+            </h1>
 
-
-
-            <Row>
-                <Col sm='4' className='mx-auto'>
-                    <ItineraryForm />
-                </Col>
-            </Row>
-
-
+            
             <Row>
                 <Col sm='12' className="text-center">
-                    <h3> Traveling with a group has benefits but  traveling solo has its advantages.</h3>
-                    <h3>You get to: </h3>
+                    <h2> Traveling with a group has benefits but traveling solo has its advantages.</h2>
+                    <h2> You get to: </h2>
                     <div className="col-sm-5 mx-auto border ">
                         <p className="d-none d-sm-block">
                             - Control your own schedule </p>
@@ -32,19 +26,27 @@ const ItineraryPage = () => {
                     </div>
                 </Col>
             </Row>
+
+            <Row>
+                <Col sm='6' className='mx-auto mt-3'>
+                    <ItineraryForm />
+                </Col>
+            </Row>
+
+
         </div>
     )
 }
+
+    
 
 
 export default ItineraryPage;
 
 
 
-// Add modal,
-// HTTP, JSON, Server-Communication
+//Add modal,
+//HTTP, JSON, Server-Communication
 //THese things make web faster and store + retrieve information.
-
-
-
-//YOu should be carglass(some dirt, smuges here and there, but overall clear) clear about where you are and where you want to go 
+//You should be carglass(some dirt, smuges here and there, but overall clear) clear about where you are and where you want to go 
+//Can  you focus when its foggy, can yoyu

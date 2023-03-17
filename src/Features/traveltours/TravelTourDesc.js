@@ -10,7 +10,7 @@ const {name, about, quote, scope} = item
             <Row>
                 <Col>
                     <div className='head'> 
-                            {name} 
+                          <h2> {name} </h2>   "{quote}"
                     </div>
                     <ul> 
                         <li>
@@ -20,8 +20,7 @@ const {name, about, quote, scope} = item
                             {scope} 
                         </li>
                         
-                         <b>"{quote}" </b>
-
+                         <b> </b>
                     </ul>
                 </Col>
             </Row>
