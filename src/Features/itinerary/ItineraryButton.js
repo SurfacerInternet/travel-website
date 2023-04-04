@@ -24,11 +24,11 @@ const ItineraryButton = () => {
 
     return (
         <>
-            <Button outline
+            <button className='btn btn-outline-primary btn-lg'
                 onClick={() => { setModalOpen(true) }}
             >
-                Make your own intinerary!
-            </Button>
+                MAKE ITINERARY
+            </button>
 
 
             <Modal isOpen={modalOpen}>

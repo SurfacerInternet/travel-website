@@ -6,13 +6,10 @@ import TourPage from './pages/TourPage'
 import ItineraryPage from './pages/ItineraryPage';
 import AboutPage from './pages/AboutPage';
 import './App.css';
-
 import Footer from './components/Footer';
 
 
-
 function App() {
-
 
   return (
 

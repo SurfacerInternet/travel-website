@@ -1,8 +1,11 @@
 
 const Footer = () => {
     return(
-        <div className="center">
-            www.travelwiz.com 
+        <div>
+            <div className="footer">
+                <p className="footer-text"> www.travelwiz.com</p> 
+            </div>
+            
         </div>
     )
 }

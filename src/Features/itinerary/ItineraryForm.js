@@ -336,9 +336,12 @@ const ItineraryForm = () => {
                     </Col>
                 </FormGroup>
 
-                <Button type='submit'>
+             
+                    <Button type='submit'>
                     Get my itinerary!
-                </Button>
+                    </Button>
+          
+
 
             </Form>
         </Formik>
@@ -363,3 +366,4 @@ export default ItineraryForm;
    // </Col>
 //</FormGroup>
 
+//Work linkedin, post on github, portfolio

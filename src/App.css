@@ -1,17 +1,18 @@
 
-.contain {
-  position: relative;
-  text-align: center;
-}
 
-.centered {
-  font-size: 50px;
-  position: absolute;
-  top: 60%;
+
+
+.header-text {
+  text-align: center;
+  position: relative;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:rgba(0, 0, 0, 0.5);
+  color: darkblue;
   background-color: white;
+  font-size: 70px;
+  opacity: 0.7;
+  font-weight: 500;
 }
 
 .row-content {
@@ -19,16 +20,38 @@
  padding: 50px;
 }
 
+#tour {
+
+  background-color: rgb(39, 97, 87);
+  color: white;
+  border: white;
+  height: 50px;
+  margin-bottom: 10px;
+  color: rgb(220, 220, 220);
+  border-radius: 8px;
+  font-weight: 800;
+  font-family:  Helvetica, sans-serif
+
+}
+
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.center {
-  background-color: gainsboro;
+.footer {
+  border: 1px 0px solid blue;
   height: 200px;
   padding-top: 100px;
-  color: steelblue;
+  margin: auto;
+  width: 50%
+  
+}
+
+.footer-text {
+  color: darkblue;
+  margin: auto;
+  width: 20%;
 }
 
 .heading {
@@ -41,10 +64,20 @@
   background-color: rgb(120, 221, 221);
 }
 
-h3 {
-  font-weight: 500;
+h1 {
+  font-family: Helvetica;
+  color: darkblue;
+  background-color: white;
+  font-size: 1.4rem;
+  width: 32%;
+ opacity: 0.7;
 }
 
+h2 {
+
+  padding-top: 20px;
+
+}
 Label {
   color: darkblue;
   font-style: italic;
@@ -69,13 +102,13 @@ Form {
 .head {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  border: 1px solid greenyellow;
+  width: 50%;
+
 }
 
-.aboutTitle {
-
+.about {
   background-color: none;
-  color: blue;
+  color: rgb(60, 60, 60);
   font-weight: 600;
   height: 100px;
 }
@@ -85,4 +118,10 @@ Form {
 
 }
 
+p {
+
+  font-size: 15px
+}
+
 /* We have to think about it differently. Radically different*/
+/* You want change? You want different results do differently.*/

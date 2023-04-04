@@ -8,9 +8,9 @@ const {name, about, quote, scope} = item
     return (
         <Container>
             <Row>
-                <Col>
+                <Col sm='7'>
                     <div className='head'> 
-                          <h2> {name} </h2>   "{quote}"
+                          <h2> {name} </h2>   
                     </div>
                     <ul> 
                         <li>
@@ -22,6 +22,16 @@ const {name, about, quote, scope} = item
                         
                          <b> </b>
                     </ul>
+                </Col>
+                <Col sm='5' className='my-auto'>
+                <p> <b>
+
+                "{quote}"
+                </b>
+                
+                </p>
+              
+                
                 </Col>
             </Row>
         </Container>  
