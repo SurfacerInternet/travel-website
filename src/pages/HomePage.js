@@ -39,7 +39,7 @@ const HomePage = () => {
 
                 <Col sm='4'>
                     <h2> Make an Itinerary</h2>
-                    <p> Make planning painless by making a travel itinerary</p>
+                    <p> Make planning painless ]through a travel itinerary</p>
                     <ItineraryButton />
                 </Col>
             </Row>
@@ -49,6 +49,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-
-//i want the user to click on certain buttons that will take them to another page in the site
