@@ -57,7 +57,3 @@ const TourPage = () => {
 }
 
 export default TourPage;
-
-
-//clearly see where you are, and where you want to be
-// you mind be wrong because youre intellingence is resistant 

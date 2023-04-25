@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Field, Form, Formik, ErrorMessage } from "formik";
 import { Col } from "reactstrap";
 import { validateItineraryForm } from "../../utilis/validateItineraryForm";
-
+import { addItinerary } from './ItinerarySlice';
 
 
 

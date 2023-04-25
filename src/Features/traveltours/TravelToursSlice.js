@@ -4,9 +4,3 @@ export const selectAllTourCompanies = () => {
 
     return TOURCOMPANIES;
 };
-
-
-//Do not quit.
-
-
-//You can not control everything.

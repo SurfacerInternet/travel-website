@@ -49,6 +49,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-
-//i want the user to click on certain buttons that will take them to another page in the site
