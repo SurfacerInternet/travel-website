@@ -1,21 +1,25 @@
 import { Field, Form, Formik, ErrorMessage } from "formik";
+import { useDispatch } from "react-redux";
 import { FormGroup, Label, Col, Button } from "reactstrap";
 import { validateItineraryForm } from "../../utilis/validateItineraryForm";
-
-
+import { addItinerary } from "./ItinerarySlice";
 
 const ItineraryForm = () => {
 
+    const dispatch = useDispatch()
+  
     const handleSubmit = (values) => {
-
+        
         const itinerary = {
             destination: values.destination,
-            departure: values.departure,
-            returnd: values.returnd,
-            duration: values.duration,
+            departure: new Date(Date.now()).toISOString(),
+            returnd: new Date(Date.now()).toISOString(),
             activities: values.activities
-        }
-    }
+        };
+   
+    console.log('itinerary:', itinerary);
+    dispatch(addItinerary(itinerary))
+}
 
     return (
 
@@ -338,11 +342,9 @@ const ItineraryForm = () => {
 
              
                     <Button type='submit'>
-                    Get my itinerary!
+                    Make my itinerary!
                     </Button>
           
-
-
             </Form>
         </Formik>
     )
@@ -350,20 +352,3 @@ const ItineraryForm = () => {
 
 
 export default ItineraryForm;
-
-
-//<FormGroup>
-//<Label htmlFor='duration'>  </Label>
- //   <Col sm='6'>
-   //     <Field
-  //              name='duration'
-     //           type='range'
-     //           placeholder='# of Days'
-      //          className='form-control' />
-     //   <ErrorMessage name="duration">
-      //  {(msg) => <p className='text-danger'>{msg}</p>}
-      //  </ErrorMessage>
-   // </Col>
-//</FormGroup>
-
-//Work linkedin, post on github, portfolio
