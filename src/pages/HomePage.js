@@ -18,7 +18,7 @@ const HomePage = () => {
                 <Col sm='4'>
                     <h2> Get Traveling Tips</h2>
                     <p> Make more of your trip with useful knowledge</p>
-                    <Link to='about'>
+                    <Link to='/about'>
                         <p className='btn btn-outline-success btn-lg'>GET TIPS</p>
                     </Link>
                     <Routes>
@@ -33,18 +33,18 @@ const HomePage = () => {
                     <p className='btn btn-outline-success btn-lg'>SEE OPTIONS</p>
                     </Link>
                     <Routes>
-                        <Route path='tours' element={<TourPage />} />
+                        <Route path='/tours' element={<TourPage />} />
                     </Routes>
                 </Col>
 
                 <Col sm='4'>
                     <h2> Make an Itinerary</h2>
                     <p> Make planning painless by making a travel itinerary</p>
-                    <Link to='/tours'>
+                    <Link to='/itineraryForm'>
                     <p className='btn btn-outline-success btn-lg'>MAKE ITINERARY</p>
                     </Link>
                     <Routes>
-                        <Route path='tours' element={<ItineraryPage />} />
+                        <Route path='/itineraryForm' element={<ItineraryPage />} />
                     </Routes>
                 </Col>
                 

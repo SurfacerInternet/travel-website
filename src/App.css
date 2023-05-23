@@ -19,7 +19,7 @@
 
 
 .navbar-dark {
-  background-color: rgb(109, 201, 109);
+  background-color: rgb(94, 165, 94);
   min-height: 8rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .footer-text {
-  color: darkblue;
+  color: black;
   margin: auto;
   width: 20%;
 }
