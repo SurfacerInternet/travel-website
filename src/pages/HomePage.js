@@ -4,6 +4,7 @@ import { Row, Col } from "reactstrap";
 import ItineraryButton from '../Features/itinerary/ItineraryButton';
 import TourPage from './TourPage';
 import AboutPage from './AboutPage';
+import ItineraryPage from './ItineraryPage';
 
 const HomePage = () => {
 
@@ -19,7 +20,7 @@ const HomePage = () => {
                     <h2> Get Traveling Tips</h2>
                     <p> Make more of your trip with useful knowledge</p>
                     <Link to='about'>
-                        <p className='btn btn-outline-primary btn-lg'>GET TIPS</p>
+                         <p className='btn btn-outline-success btn-lg'>GET TIPS</p>
                     </Link>
                     <Routes>
                         <Route path='/about' element={<AboutPage />} />
@@ -30,7 +31,7 @@ const HomePage = () => {
                     <h2> Discover Travel Options </h2>
                     <p> Check out cool options for your dream trip </p>
                     <Link to='/tours'>
-                    <p className='btn btn-outline-primary btn-lg'>SEE OPTIONS</p>
+                    <p className='btn btn-outline-success btn-lg'>SEE OPTIONS</p>
                     </Link>
                     <Routes>
                         <Route path='tours' element={<TourPage />} />
@@ -40,7 +41,12 @@ const HomePage = () => {
                 <Col sm='4'>
                     <h2> Make an Itinerary</h2>
                     <p> Make planning painless ]through a travel itinerary</p>
-                    <ItineraryButton />
+                    <Link to='itinerary'>
+                    <p className='btn btn-outline-success btn-lg'>MAKE ITINERARY</p>
+                    </Link>
+                    <Routes>
+                        <Route path='tours' element={<ItineraryPage />} />
+                    </Routes>
                 </Col>
             </Row>
         </div>
