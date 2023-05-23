@@ -10,6 +10,9 @@ const HomePage = () => {
 
     return (
         <div>
+            <Col className='m-5'>
+            <h3>  Solo & Group Travel Guide </h3>
+            </Col>
             <div className="contain">
                 <img src={Thailand} alt='Thailand' className="img-fluid" width='max' />
             </div>
@@ -41,11 +44,11 @@ const HomePage = () => {
                 <Col sm='4'>
                     <h2> Make an Itinerary</h2>
                     <p> Make planning painless ]through a travel itinerary</p>
-                    <Link to='itinerary'>
+                    <Link to='/itineraryForm'>
                     <p className='btn btn-outline-success btn-lg'>MAKE ITINERARY</p>
                     </Link>
                     <Routes>
-                        <Route path='tours' element={<ItineraryPage />} />
+                        <Route path='/itineraryForm' element={<ItineraryPage />} />
                     </Routes>
                 </Col>
             </Row>
