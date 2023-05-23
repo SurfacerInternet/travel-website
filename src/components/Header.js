@@ -15,32 +15,32 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar  expand='md' className='border-bottom' >
+        <Navbar dark sticky='top' expand='md  '>
             <NavbarBrand className='ms-5' href='/'>
                 <img src={Logo} alt='travel wiz logo' height='100px' />
             </NavbarBrand>
 
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
-                <Nav className='nav-pills'>
+                <Nav>
                     <NavItem>
-                        <NavLink className='nav-link' to='/'>
+                        <NavLink className='navlink' to='/'>
                             <i className='fa fa-home fa-lg' /> Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/tours'>
+                        <NavLink className='navlink' to='/tours'>
                             <i className='fa fa-list fa-lg' /> Tours
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/itineraryForm'>
+                        <NavLink className='navlink' to='/itineraryForm'>
                             <i className='fa fa-info fa-lg' /> Itinerary
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/about'>
-                            <i className='fa fa-address-card fa-lg' /> About
+                        <NavLink className='navlink' to='/about'>
+                            <i className='fa fa-address-card fa-lg'/> About
                         </NavLink>
                     </NavItem>
                 </Nav>

@@ -32,15 +32,15 @@ const TourPage = () => {
                 </Row>
 
                 <Row className='m-3'>
-                    <Col className='col-10' id='tour'>
+                    <Col id='tour'>
                          How can you make your chosen travel style happen?
                     </Col>
 
-                    <Col className='col-10' id='tour' >
+                    <Col id='tour' >
                         Dont want to worry about all the details of booking flights, accomodations for the place youre staying?
                     </Col>
 
-                    <Col className='col-10' id='tour'>
+                    <Col id='tour'>
                          Here are some tour companies that can offer the travel style & journey you want
                     </Col>
                 </Row>

@@ -1,19 +1,14 @@
 import Trip from '../app/assets/img/Trip.jpeg'
 import { Row, Col } from "reactstrap";
 import ItineraryForm from "../Features/itinerary/ItineraryForm";
-import Itinerary from '../Features/itinerary/Itinerary';
-import { useSelector } from 'react-redux';
-import { selectItinerary } from '../Features/itinerary/ItinerarySlice';
 
 
 const ItineraryPage = () => {
 
-const currentItinerary = useSelector(selectItinerary);
-
     return (
         <div>
             <div className='header-image'
-                style={{
+                    style={{
                     backgroundImage: 'url(' + Trip + ')',
                     backgroundSize: "cover",
                     height: '500px'
@@ -40,16 +35,12 @@ const currentItinerary = useSelector(selectItinerary);
 
 
                 <Col sm='6' className='mx-auto mt-3'>
-                    <ItineraryForm />
+                    <ItineraryForm  />
                 </Col>
             </Row>
 
-            <Row>
+            
 
-                <Col sm='12'>
-                    <Itinerary itinerary={currentItinerary}/>
-                </Col>
-            </Row>
 
 
         </div>
