@@ -10,10 +10,8 @@ const TravelTourList = () => {
     return (
        tourcompanies.map((tour) => {
         return (
-            <Row key={tour.id}>
-                <Col sm='8'> 
-                    <TravelTourDesc item={tour} />
-                </Col>
+            <Row key={tour.id} className='m-2'>
+                    <TravelTourDesc item={tour} />   
             </Row>
         )})
     )
