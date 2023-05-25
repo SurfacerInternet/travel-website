@@ -18,7 +18,7 @@
 
 
 .navbar-dark {
-  background-color: rgb(109, 201, 109);
+  background-color: rgb(94, 165, 94);
   min-height: 8rem;
 }
 
@@ -29,17 +29,14 @@
 
 
 #tour {
-  background-color: rgba(39, 97, 87, 0.4);
-  color: white;
-  border: white;
-  height: 50px;
-  padding: 15px;
-  margin-bottom: 10px;
-  color: rgb(220, 220, 220);
+  background-color: rgba(5, 15, 52, 0.4);
+  height: 100px;
   border-radius: 8px;
-  font-weight: 400;
-  font-family:  Helvetica, sans-serif
-
+  font-weight: 800;
+  font-family:  Helvetica, sans-serif;
+  width: 400px;
+  margin-right: 7px;
+  padding: 5px;
 }
 
 .card-img-overlay .card-title {
@@ -57,7 +54,7 @@
 }
 
 .footer-text {
-  color: darkblue;
+  color: black;
   margin: auto;
   width: 20%;
 }
@@ -128,6 +125,12 @@ Form {
   color: rgb(60, 60, 60);
   font-weight: 600;
   height: 100px;
+}
+
+.body-text {
+  font-size: 12px;
+  font-weight: 100 ;
+  font-family:  Helvetica, sans-serif;
 }
 
 .AccordionBody {
