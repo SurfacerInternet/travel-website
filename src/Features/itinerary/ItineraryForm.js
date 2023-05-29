@@ -1,7 +1,6 @@
 import { FormGroup, Label, Button, Col } from "reactstrap";
 import { useState } from "react";
 
-
 const ItineraryForm = () => {
 
   const [destination, setDestination] = useState('');
