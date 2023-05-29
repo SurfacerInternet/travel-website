@@ -4,6 +4,7 @@ import { Row, Col } from "reactstrap";
 import TourPage from './TourPage';
 import AboutPage from './AboutPage';
 import ItineraryPage from './ItineraryPage';
+import ItineraryPage from './ItineraryPage';
 
 const HomePage = () => {
 
@@ -33,6 +34,7 @@ const HomePage = () => {
                     <h2> Discover Travel Options </h2>
                     <p> Check out cool options for your dream trip </p>
                     <Link to='/tours'>
+                    <p className='btn btn-outline-success btn-lg'>SEE OPTIONS</p>
                     <p className='btn btn-outline-success btn-lg'>SEE OPTIONS</p>
                     </Link>
                     <Routes>
