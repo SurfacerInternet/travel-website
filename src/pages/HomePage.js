@@ -9,6 +9,9 @@ const HomePage = () => {
 
     return (
         <div>
+            <Col className='m-5'>
+            <h3 className='title'>  Solo & Group Travel Guide </h3>
+            </Col>
             <div className="contain">
                 <img src={Thailand} alt='Thailand' className="img-fluid" width='max' />
             </div>

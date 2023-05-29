@@ -5,7 +5,6 @@ import safari from '../assets/img/safari.jpeg';
 import trekking from '../assets/img/trekking.jpeg';
 import urban from '../assets/img/urban.jpeg';
 
-
 export const TOURSTYLES = [
 
 {   id: 0,

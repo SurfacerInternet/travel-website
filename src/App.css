@@ -5,18 +5,27 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: darkblue;
+  color: rgb(3, 3, 73);
   background-color: white;
   font-size: 70px;
   opacity: 0.7;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  color: rgb(3, 3, 73);
+  background-color: white;
+  font-size: 50px;
+  opacity: 0.7;
+  font-weight: 600;
 }
 
 .row-content {
  background-color:none;
  padding: 50px;
 }
-
 
 .navbar-dark {
   background-color: rgb(94, 165, 94);
@@ -30,24 +39,21 @@
 
 
 #tour {
-  background-color: rgba(39, 97, 87, 0.4);
-  color: white;
-  border: white;
-  height: 50px;
-  padding: 15px;
-  margin-bottom: 10px;
-  color: rgb(220, 220, 220);
+  background-color: rgba(5, 15, 52, 0.4);
+  height: 100px;
+  color: rgb(11, 23, 34);
   border-radius: 8px;
-  font-weight: 400;
-  font-family:  Helvetica, sans-serif
-
+  font-weight: 800;
+  font-family:  Helvetica, sans-serif;
+  width: 400px;
+  margin-right: 7px;
+  padding: 5px;
 }
 
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .footer {
   background-image: linear-gradient(#a2e8c3, white);
@@ -91,7 +97,6 @@ h1 {
 h2 {
   padding-top: 20px;
 
-
 }
 Label {
   color: darkblue;
@@ -102,10 +107,8 @@ Label {
   color: red;
 }
 
-
 .right {
   margin-left: 72px; ;
-
 }
 
 Form {
@@ -115,7 +118,6 @@ Form {
   margin-left: 20px;
   color: darkolivegreen
 }
-
 
 .head {
   font-family: Helvetica, sans-serif;
@@ -131,12 +133,18 @@ Form {
   height: 100px;
 }
 
+.body-text {
+  font-size: 20px;
+  font-weight: 100 ;
+  font-family:  Helvetica, sans-serif;
+}
+
 .AccordionBody {
  color: yellow;
 }
 
-p {
-  font-size: 15px
+div > p {
+  font-size: 20px
 }
 
 /* We have to think about it differently. Radically different*/

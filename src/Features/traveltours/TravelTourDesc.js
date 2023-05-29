@@ -1,14 +1,14 @@
-import {Container, Row, Col } from 'reactstrap';
+import {Container, Row, Col, Card, CardImg } from 'reactstrap';
 
 
 const TravelTourDesc = ({item}) => {
 
-const {name, about, quote, scope} = item
+const {name, about, quote, scope, image} = item
 
     return (
         <Container>
             <Row>
-                <Col sm='7'>
+                <Col>
                     <div className='head'> 
                           <h2> {name} </h2>   
                     </div>
@@ -23,15 +23,18 @@ const {name, about, quote, scope} = item
                          <b> </b>
                     </ul>
                 </Col>
-                <Col sm='5' className='my-auto'>
+                <Col >
                 <p> <b>
 
                 "{quote}"
                 </b>
-                
                 </p>
-              
-                
+                </Col>
+                <Col>
+                <Card>
+                    <CardImg src={image}>
+                    </CardImg>
+                </Card>
                 </Col>
             </Row>
         </Container>  

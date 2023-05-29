@@ -32,16 +32,16 @@ const TourPage = () => {
                 </Row>
 
                 <Row className='m-3'>
-                    <Col id='tour'>
-                         How can you make your chosen travel style happen?
+                    <Col id='tour' sm='4' >
+                         How can you make your dream travel trip happen?
                     </Col>
 
-                    <Col id='tour' >
-                        Dont want to worry about all the details of booking flights, accomodations for the place youre staying?
+                    <Col id='tour' sm='4'>
+                        Don't want to worry about all the details of flights, accomodations, or transportion?
                     </Col>
 
-                    <Col id='tour'>
-                         Here are some tour companies that can offer the travel style & journey you want
+                    <Col id='tour' sm='4'>
+                        What resources or agencies are there than help me plan my journey?
                     </Col>
                 </Row>
                 <Row className='mt-5'>

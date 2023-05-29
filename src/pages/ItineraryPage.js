@@ -15,7 +15,7 @@ const ItineraryPage = () => {
                 }}
             >
                 <div className="header-text">
-                    MAKE YOUR ITINERARY
+                    Make Your Itinerary
                 </div>
             </div>
 
@@ -27,10 +27,12 @@ const ItineraryPage = () => {
             </Row>
             <Row>
                 <Col className="col-sm-5 mx-auto border ">
+                    <div>
                     <p> - Control your own schedule </p>
                     <p> - Cater activities to your own personal interests </p>
                     <p> - Expand your comfort zone</p>
                     <p> - Experience less drama and focus more on exploring </p>
+                    </div>
                 </Col>
 
 
