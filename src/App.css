@@ -48,12 +48,17 @@
   width: 400px;
   margin-right: 7px;
   padding: 5px;
+  font-family:  Helvetica, sans-serif;
+  width: 400px;
+  margin-right: 7px;
+  padding: 5px;
 }
 
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 .footer {
   background-image: linear-gradient(#a2e8c3, white);
@@ -96,6 +101,7 @@ h1 {
 
 h2 {
   padding-top: 20px;
+
 
 }
 Label {
@@ -146,6 +152,3 @@ Form {
 div > p {
   font-size: 20px
 }
-
-/* We have to think about it differently. Radically different*/
-/* You want change? You want different results do differently.*/

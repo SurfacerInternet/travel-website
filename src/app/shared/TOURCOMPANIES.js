@@ -53,12 +53,3 @@ export const TOURCOMPANIES = [
     }
 
 ]
-
-
-
-//What are you bringing to the table, what are you mastering. 
-//When we are helpless, we think the problem is pervasive, permannat, ...
-
-//Youre ideas are naught if they arent shsared. 
-
-//Solve your problems creatively.

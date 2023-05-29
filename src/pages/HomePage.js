@@ -4,7 +4,6 @@ import { Row, Col } from "reactstrap";
 import TourPage from './TourPage';
 import AboutPage from './AboutPage';
 import ItineraryPage from './ItineraryPage';
-import ItineraryPage from './ItineraryPage';
 
 const HomePage = () => {
 

@@ -28,7 +28,10 @@ const ItineraryForm = () => {
 
     <form
 
+
+
       onSubmit={handleSubmit}>
+
 
       <FormGroup>
         <Label htmlFor="destination">  Destination </Label>

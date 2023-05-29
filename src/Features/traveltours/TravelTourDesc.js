@@ -41,4 +41,5 @@ const {name, about, quote, scope, image} = item
     )
 }
 
+
 export default TravelTourDesc;
