@@ -20,35 +20,31 @@ const HomePage = () => {
 
                 <Col sm='4'>
                     <h2> Get Traveling Tips</h2>
-                    <p> Make more of your trip with useful knowledge</p>
-                    <Link to='/about'>
-                        <p className='btn btn-outline-success btn-lg'>GET TIPS</p>
-                    </Link>
-                    <Routes>
-                        <Route path='/about' element={<AboutPage />} />
-                    </Routes>
+                    <p> Make more of your trip with useful knowledge from our partner website</p>
+                    <a href='https://firsttimetravelsolutions.com'>
+                        <p className='btn btn-outline-success btn-lg'><b>GET TIPS</b></p>
+                   </a>
                 </Col>
 
                 <Col sm='4' >
                     <h2> Discover Travel Options </h2>
-                    <p> Check out cool options for your dream trip </p>
-                    <Link to='/tours'>
-                    <p className='btn btn-outline-success btn-lg'>SEE OPTIONS</p>
-                    <p className='btn btn-outline-success btn-lg'>SEE OPTIONS</p>
+                    <p> Check out neat tour options to make your dream trip possible. </p>
+                    <Link to='tours'>
+                    <p className='btn btn-outline-success btn-lg'><b>SEE OPTIONS</b></p>
                     </Link>
                     <Routes>
-                        <Route path='/tours' element={<TourPage />} />
+                        <Route path='tours' element={<TourPage />} />
                     </Routes>
                 </Col>
 
                 <Col sm='4'>
                     <h2> Make an Itinerary</h2>
-                    <p> Make planning painless by making a travel itinerary</p>
+                    <p> Make planning painless by making a travel itinerary.</p>
                     <Link to='/itineraryForm'>
-                    <p className='btn btn-outline-success btn-lg'>MAKE ITINERARY</p>
+                    <p className='btn btn-outline-success btn-lg'><b>MAKE ITINERARY</b></p>
                     </Link>
                     <Routes>
-                        <Route path='/itineraryForm' element={<ItineraryPage />} />
+                        <Route path='itineraryForm' element={<ItineraryPage />} />
                     </Routes>
                 </Col>
                 
@@ -59,3 +55,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
