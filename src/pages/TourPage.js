@@ -31,19 +31,22 @@ const TourPage = () => {
                     <TravelStylesList />
                 </Row>
 
-                <Row className='m-3'>
-                    <Col id='tour' sm='4' >
-                         How can you make your dream travel trip happen?
-                    </Col>
+                <Row className='mt-3 '>
 
-                    <Col id='tour' sm='4'>
-                        Don't want to worry about all the details of flights, accomodations, or transportion?
+                    <Col sm='12' className='py-3  text-center'>
+                        <h3> Don't want to worry about all the details of flights, accomodations, or transportion?</h3>
                     </Col>
-
-                    <Col id='tour' sm='4'>
-                        What resources or agencies are there than help me plan my journey?
+               
+                    <Col sm='12' className='py-3 text-center'>
+                        <h3>Here are your solutions.</h3>
                     </Col>
                 </Row>
+
+                <Row>
+
+                    <div className='space' ></div>
+                </Row>
+               
                 <Row className='mt-5'>
                     <TravelTourList />
                 </Row>
