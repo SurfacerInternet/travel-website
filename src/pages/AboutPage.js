@@ -1,5 +1,5 @@
 import { Row, Col } from 'reactstrap';
-import quito from '../app/assets/img/quito.jpeg'
+import city from '../app/assets/img/city.jpeg'
 
 const AboutPage = () => {
 
@@ -8,7 +8,7 @@ const AboutPage = () => {
         <div>
             <div className='header-image'
                     style={{
-                    backgroundImage: 'url(' + quito + ')',
+                    backgroundImage: 'url(' + city + ')',
                     backgroundSize: "cover",
                     height: '500px'
                 }}
@@ -20,21 +20,18 @@ const AboutPage = () => {
             <Row>
                 <Col className='col-sm-6 mx-auto mt-4'>
                     <div className='body-text'>
-                        <p>Travel Wiz is a place for aspiring travelers looking for new traveling ideas and who want to explore their unique travel personality.
-                            Travel Personality is how you specifically would like to travel in an ideal world. </p>
-
-                        <p> This site can help you discover the type of travel experience best suited for you or your group based on your unique interests and goals. </p>
+                        <p>Travel Wiz can help you discover the type of travel experience best suited for you based on your unique interests and goals. </p>
                           
                            <p> Do you like to explore forest regions, or are you more energized by urban adventures?  </p>
 
                         <p>
-                            Do want to experience more of the local cuisine of a country or you wish to focus more on sightseeing must see places? <br></br>
+                            Do want to experience more of the local cuisine of a country or you wish to focus more on sightseeing? <br></br>
 
                         </p>
                         <p>
-                            Discover travel tour companies offering jam-packed itineraries and pick the one tour with the travel style best for you. </p>
+                            Discover travel tour companies offering pre-made itineraries and choose the tour and destination suited for you.  </p>
                            
-                           <p>Want to travel solo? Know the advantages and challenges then start planning your trip with our travel itinerary</p>
+                           <p>Want to travel solo? Then start planning your trip with our travel itinerary.</p>
 
                     </div>
 
@@ -45,4 +42,6 @@ const AboutPage = () => {
 }
 
 export default AboutPage;
+
+
 
