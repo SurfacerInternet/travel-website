@@ -27,6 +27,10 @@
  padding: 50px;
 }
 
+.space {
+  height: 100px;
+}
+
 .navbar-dark {
   background-color: rgb(94, 165, 94);
   min-height: 8rem;
