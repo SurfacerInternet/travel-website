@@ -63,15 +63,14 @@
 .footer {
   background-image: linear-gradient(#a2e8c3, white);
   border: 1px 0px solid blue;
-  height: 200px;
-  padding-top: 100px;
-  margin: auto;
+  height: 100px;
 }
 
 .footer-text {
-  color: black;
-  margin: auto;
+  color: rgb(98, 94, 94);
   width: 20%;
+  margin: auto;
+  padding: 50px
 }
 
 .site-footer {
