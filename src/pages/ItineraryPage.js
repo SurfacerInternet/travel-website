@@ -26,7 +26,7 @@ const ItineraryPage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col className="col-sm-5 mx-auto border ">
+                <Col className="col-sm-6 mx-auto border ">
                     <div>
                     <p> - Control your own schedule </p>
                     <p> - Cater activities to your own personal interests </p>
@@ -34,12 +34,20 @@ const ItineraryPage = () => {
                     <p> - Experience less drama and focus more on exploring </p>
                     </div>
                 </Col>
+            </Row>
 
+            <Row>
 
                 <Col sm='6' className='mx-auto mt-3'>
                     <ItineraryForm  />
                 </Col>
             </Row>
+
+        </div>
+    )
+}
+
+export default ItineraryPage;
 
             
 
